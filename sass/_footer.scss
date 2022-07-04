@@ -1,0 +1,90 @@
+
+.style{
+    font-style:normal; /*убрали курсив*/
+}
+.footer{
+    background-color:var(--effect-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.footer .container{
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-link {
+    color: var(--two-title-color);
+}
+.logo-foot{
+    font-family:'Raleway', sans-serif;
+    font-weight:700;
+    font-size: 26px;
+    line-height: 1.19; 
+    color: var(--accent-color);
+}
+.cont-add{
+    color:var(--foot-cont);
+    margin: 0px;
+}
+.foot-one{
+    margin-top: 20px;}
+
+.foot-item:not(:last-child) {
+    margin-bottom: 9px;}
+
+
+.footer-right {
+    margin-left: 70px;
+    margin-right: auto;
+}
+
+.footer-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--two-title-color);
+    margin-bottom: 20px;
+}
+.footer-soc-list {
+    display: flex;
+}
+.footer-soc-item {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color:var(--accent-color);
+    cursor: pointer;
+  
+}
+.footer-soc-item {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+.footer-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--main-btn-color);
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color var(--timing-duration) var(--transition-timing-function);
+
+}
+.footer-soc-link:not(:last-child){
+    margin-right: 10px;
+}
+.footer-soc-icon{
+    fill: var(--main-btn-color);
+}

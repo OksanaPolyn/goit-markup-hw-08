@@ -1,0 +1,98 @@
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;   
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+.body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    color: var(--main-title-color);
+    background-color: var(--main-btn-color);
+ }
+
+ .list{
+    margin: 0px;   
+}
+ 
+.button {
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.section{
+    display: block;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.task,  .comand{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--main-title-color);
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*спрятали заголовок список работ*/
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}

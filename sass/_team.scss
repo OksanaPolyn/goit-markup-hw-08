@@ -1,0 +1,57 @@
+.comand{
+    background-color:var(--btn-comand);
+}
+
+.comand_about{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--main-title-color);
+}
+.comand_about{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.comand_list {
+    display: flex;
+    padding-inline-start: 0px;
+}
+
+.comand_name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18; 
+    color: var(--main-title-color);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.comand_position {
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--primary-text-color);
+    margin-bottom: 16px;
+}
+
+.team_img{
+    background:var(--two-title-color);
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
+}
+.team_img:not(:last-child) {
+    margin-right: 30px;
+}
+
+.photo_team {
+    display: block;
+    height: auto;}
+
+.team_div{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+

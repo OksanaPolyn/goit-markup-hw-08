@@ -1,0 +1,41 @@
+
+.team_soc_list {
+    display: flex;
+    justify-content: center;
+}
+
+.team_soc_item {
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;  
+}
+
+.team_soc_item {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+
+.team_soc_link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #AFB1B8;
+    transition: fill var(--timing-duration) 
+    var(--transition-timing-function), 
+    background-color var(--timing-duration) 
+    var(--transition-timing-function);
+}
+
+.team_soc_link:not(:last-child){
+    margin-right: 10px;
+}
+
+.team_soc_link:hover,
+.team_soc_link:focus {
+    background-color: var(--accent-color);
+    fill: var(--main-btn-color);
+}
