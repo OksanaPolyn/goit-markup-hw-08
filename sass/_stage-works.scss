@@ -1,3 +1,18 @@
+.card-set{
+   // display: flex;
+   //flex-wrap: wrap;
+}
+
+.aside-icon{
+    width: 100%;
+    height: 120px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 
 .type-name{
     font-weight: 700;
@@ -14,18 +29,23 @@
     color: var(--primary-text-color);
     width: 270px;
 }
-.card-set{
-    display: flex;
+@media screen and (min-width: 480px)
+ .container {
+    width: 480px;
 }
-.aside-item:not(:last-child) {
-    margin-right: 30px;
+
+@include tablet {
+   
 }
-.aside-icon{
-    width: 270px;
-    height: 120px;
-    background-color: #F5F4FA;
-    margin-bottom: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+@include desktop {
+    .card-set{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .aside-item:not(:last-child) {
+        margin-right: 30px;
+    }
+   
 }

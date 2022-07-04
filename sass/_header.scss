@@ -75,6 +75,10 @@ link.current::after {
     margin: 0px;
     
 }
+
+.item:not(:last-child) {
+    margin-right: 50px;
+}
 /*сыслку делаем синей и основной*/
 .item:hover,
 .item:focus,
@@ -100,6 +104,14 @@ link.current::after {
     padding-bottom: 32px;
 }
 
+.cont{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cont+.cont{ 
+    margin-left: 50px;
+}
 
 .cont-link:hover ,
 .cont-link:focus{
