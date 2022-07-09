@@ -31,7 +31,7 @@
                         <a class="link list" href=""  >Контакты</a></li>
                 </ul>
             </nav>
-                <ul class="list-cont site-nav">
+                <ul class="list-cont site-nav contacts">
                     <li class="cont">
                         <a href="mailto:info@devstudio.com" class="col cont-link">
                              <svg class="cont-icon"  width="16" height="12">
@@ -44,13 +44,56 @@
                        
                            +38 096 111 11 11</a></li>
                 </ul>
+                <div class="mob-menu">
+                    &#9776;  
+
+                </div>
         </div>
     </header>
+
+<div class="box-mob-menu is-hidden">
+    <button class="btn-close">&#10006;</button>
+    <ul class="box-mob-menu__nav">
+        <li class="box-mob-menu__item"><a class="box-mob-menu__link current" href="">Студия</a></li>
+        <li class="box-mob-menu__item"><a class="box-mob-menu__link" href="">Портфолио</a></li>
+        <li class="box-mob-menu__item"><a class="box-mob-menu__link" href="">Контакты</a></li>
+    </ul>
+    <ul class="box-mob-menu__contacts">
+        <li class="box-mob-menu__item"> <a class="box-mob-menu__link" href="tel:+380961111111" class="">
+              +38 096 111 11 11</a>
+        </li>
+        <li class="box-mob-menu__item"><a class="box-mob-menu__link" href="mailto:info@devstudio.com" class="">
+       
+            info@devstudio.com </a</li>
+    </ul>
+    <div>
+    <ul class="list-cont site-nav contacts">
+        <li class="cont">
+            <a href="mailto:info@devstudio.com" class="col cont-link">
+                 <svg class="cont-icon"  width="16" height="12">
+                    <use href="./image/icons.svg/symbol-defs.svg#icon-envelope"></use></svg>
+                    info@devstudio.com</a></li>
+                
+        <li class="cont"><a href="tel:+380961111111" class=" col cont-link">
+                <svg class="cont-icon"  width="10" height="16">
+                     <use href="./image/icons.svg/symbol-defs.svg#icon-phone"></use></svg>
+           
+               +38 096 111 11 11</a></li>
+    </ul>
+    <ul class="cos-list">
+        <li class="cos-list__item"><a  class="cos-list__link" href="">Instagram</a></li>
+        <li class="cos-list__item"><a  class="cos-list__link" href="">Twitter</a></li>
+        <li class="cos-list__item"><a  class="cos-list__link" href="">Facebook</a></li>
+        <li class="cos-list__item"><a  class="cos-list__link" href="">LinkedIn</a></li>
+    </ul>
+</div>
+</div>
+
     <main>
 <!--Уникальный контент страницы-->
         <section class="main-effect">
             
-            <h1 class="main-head">ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br>ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+            <h1 class="main-head">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
             <button  class="hero-btn" data-modal-open  type="button">Заказать услугу
             </button>
        
@@ -58,7 +101,7 @@
     
        
 <!--2 Раздел ЭТАПЫ РАБОТЫ-->
-        <section class="section">
+        <section class="section"> 
                 <div class="container">
                     <h2 class="visually-hidden "> Этапы работы </h2>
                     <ul class="card-set list">
@@ -102,7 +145,7 @@
                 </div>
          </section>
 <!--Чем мы занимаемся-->
-        <section class="section section-about">
+         <section class="section section-about">
             <div class="container">
                 <h2 class="task about-task">Чем мы занимаемся</h2>
                     <ul class="about-img list">
@@ -126,9 +169,9 @@
                         </Li>
                 </ul>
             </div>
-        </section>
+        </section> 
 <!--НАША КОМАНДА-->        
-       <!-- <section class="section comand">
+        <section class="section comand">
             <div class="container">
                 <h2 class="comand_about">Наша команда</h2>  
                 <ul class="comand_list list">
@@ -283,9 +326,9 @@
                     </li>
                 </ul>
             </div>
-        </section>-->
+        </section>
 <!--Постоянные клиенты-->
-        <!--<section class="section">
+        <section class="section">
             <div class="container">
                 <h2 class="client_about">Постоянные клиенты</h2>
             
@@ -337,11 +380,11 @@
                 </ul>
             </div>
         </section>
-     </main>-->
+     </main>
 
 <!--Подвал страницы-->
     <footer class="footer">
-      <!-- <div class="container">
+      <div class="container">
             <div class="footer-left">
                <a class="logo-foot" href="/" >Web<Span class="logo-thre">Studio</Span></a>
                  <address>
@@ -398,7 +441,7 @@
                   </svg>
                 </button>
               </form>
-       </div>-->
+       </div>
       
     </footer>
 
