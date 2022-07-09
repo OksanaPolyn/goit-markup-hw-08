@@ -150,19 +150,43 @@
                 <h2 class="task about-task">Чем мы занимаемся</h2>
                     <ul class="about-img list">
                         <li class="list-img"> 
-                            <img src="./image/img1.jpg"  alt="картинка1" width="370" height="294">
+                            <picture>
+                                <source srcset="
+                                ./image/box/box1.jpg 1x,
+                                ./image/box/box1@2x.jpg 2x"
+                                media="(min-width: 1200px)"
+                                />
+                                <img src="./image/img1.jpg"  alt="картинка1" width="370" height="294">
+                            </picture>
+                            
                             <div class="about-item-text">
                                 <p>Десктопные приложения</p>
                             </div>
                         </li>
                         <Li class="list-img"> 
-                            <img src="./image/img2.jpg"  alt="картинка2" width="370" height="294">
+                            <picture>
+                                <source srcset="
+                                ./image/box/box2.jpg 1x,
+                                ./image/box/box2@2x.jpg 2x"
+                                media="(min-width: 1200px)"
+                                />
+                                <img src="./image/img2.jpg"  alt="картинка2" width="370" height="294">
+                            </picture>
+                            
                             <div class="about-item-text">
                                 <p>Мобильные приложения</p>
                             </div>
                         </Li>
                         <Li class="list-img">
-                             <img src="./image/img3.jpg"  alt="картинка3" width="370" height="294">
+                            <picture>
+                                <source media="(min-width: 1200px)" 
+                                srcset="./image/box/box3.jpg 1x, 
+                                        ./image/box/box3@2x.jpg 2x"
+                                 type="image/jpg">
+
+                                <img src="./image/img1.jpg"  alt="картинка3" width="370" height="294">
+                            </picture>
+                                                        
                              <div class="about-item-text">
                                 <p>Дизайнерские решения</p>
                             </div>                           
