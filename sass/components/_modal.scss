@@ -28,14 +28,21 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    height: 581px;
-    width: 528px;
+    
     padding: 40px;
-  
+    height: 609px;
+    width: 450px;
+    
     background-color: var(--main-btn-color);
   
     transform: translate(-50%, -50%) scale(1);
     transition: transform var(--timing-duration) var(--transition-timing-function);
+            
+    @media screen and (min-width:1200px) {
+
+        width: 528px;
+        height: 581px;
+      }
 }
 
 .modal-btn  {
@@ -68,8 +75,13 @@
     color: var(--main-title-color);
     font-weight: 700;
     font-size: 20px;
-    line-height: 1.15;
+    line-height: 1.5;
     text-align: center;
+
+    @media screen and (min-width:1200px) {
+       line-height: 1.15;
+    }
+   
 }
   
 .modal-input {
@@ -142,15 +154,18 @@
     color: var(--primary-text-color);
 }
   
-.form-field label:not(:last-child) {
-    display: block;
+.form-field label{
+    display: flex;
     margin-bottom: 4px;
   
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
+
 }
+
+
 .form-field.comment {
     margin-bottom: 20px;
 }
@@ -231,4 +246,3 @@ textarea:placeholder-shown {
 .check-icon {
     fill: transparent;
 }
-

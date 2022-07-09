@@ -25,9 +25,9 @@
 
 .team_img {
   margin: 15px;
-  border: 1px solid blue;
+ // border: 1px solid blue;
   &:not(:last-child) {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     @media screen and (min-width: 1200px) {
       margin-bottom: 0;
     }
@@ -81,3 +81,10 @@ img.photo_team{
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.team_img:not(:last-child) {
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 15px;
+  }
+}
+ 

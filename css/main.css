@@ -122,7 +122,6 @@ html {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -433,7 +432,6 @@ link.current::after {
 
 .aside-item {
   margin: 15px;
-  border: 1px solid blue;
 }
 .aside-item:not(:last-child) {
   margin-bottom: 30px;
@@ -565,10 +563,9 @@ link.current::after {
 
 .team_img {
   margin: 15px;
-  border: 1px solid blue;
 }
 .team_img:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 @media screen and (min-width: 1200px) {
   .team_img:not(:last-child) {
@@ -621,6 +618,12 @@ img.photo_team {
 .team_div {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .team_img:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 
 .team_soc_list {
@@ -1166,12 +1169,18 @@ img.img-photo {
   position: absolute;
   top: 50%;
   left: 50%;
-  height: 581px;
-  width: 528px;
   padding: 40px;
+  height: 609px;
+  width: 450px;
   background-color: var(--main-btn-color);
   transform: translate(-50%, -50%) scale(1);
   transition: transform var(--timing-duration) var(--transition-timing-function);
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .modal-btn {
@@ -1204,8 +1213,13 @@ img.img-photo {
   color: var(--main-title-color);
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .modal-title {
+    line-height: 1.15;
+  }
 }
 
 .modal-input {
@@ -1273,8 +1287,8 @@ img.img-photo {
   color: var(--primary-text-color);
 }
 
-.form-field label:not(:last-child) {
-  display: block;
+.form-field label {
+  display: flex;
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
