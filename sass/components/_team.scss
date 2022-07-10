@@ -54,6 +54,7 @@
 }
 
 .comand_position {
+  font-weight: 400px;
   font-size: 16px;
   line-height: 1.18;
   color: var(--primary-text-color);
@@ -80,6 +81,7 @@ img.photo_team{
 .team_div {
   padding-top: 30px;
   padding-bottom: 30px;
+ 
 }
 
 .team_img:not(:last-child) {

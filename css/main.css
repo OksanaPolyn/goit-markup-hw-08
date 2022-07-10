@@ -90,7 +90,6 @@ html {
 
 .task,
 .comand {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   color: var(--main-title-color);
@@ -601,6 +600,7 @@ link.current::after {
 }
 
 .comand_position {
+  font-weight: 400px;
   font-size: 16px;
   line-height: 1.18;
   color: var(--primary-text-color);
