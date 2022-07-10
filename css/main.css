@@ -334,7 +334,8 @@ link.current::after {
   padding: 118px 0px;
   margin: 0 auto;
   text-align: center;
-  max-width: 1600px;
+  max-width: 480px;
+  height: 400px;
 }
 @media screen and (min-resolution: 192dpi) and (min-resolution: 2dppx) {
   .main-effect {
@@ -343,6 +344,8 @@ link.current::after {
 }
 @media screen and (min-width: 768px) {
   .main-effect {
+    max-width: 768px;
+    height: 400px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/hero/hero-tab.jpg);
   }
 }
@@ -353,6 +356,11 @@ link.current::after {
 }
 @media screen and (min-width: 1200px) {
   .main-effect {
+    padding: 200px 0px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1600px;
+    height: 600px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../image/hero/hero-des.jpg);
   }
 }
@@ -620,6 +628,14 @@ img.photo_team {
   padding-bottom: 30px;
 }
 
+.team_img:not(:last-child) {
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 780px) {
+  .team_img:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .team_img:not(:last-child) {
     margin-bottom: 15px;
@@ -1044,6 +1060,9 @@ img.photo_team {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
+.portfolio {
+  margin: -15px;
+}
 @media screen and (min-width: 768px) {
   .portfolio {
     display: flex;
@@ -1072,6 +1091,10 @@ img.photo_team {
   .item-potfolio {
     width: calc(33.3333333333% - 30px);
   }
+}
+
+.item-potfolio:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .img-photo {

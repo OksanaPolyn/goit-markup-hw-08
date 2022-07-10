@@ -1,4 +1,5 @@
 .portfolio{
+    margin: -15px;
     @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
@@ -23,6 +24,13 @@
         width: calc(100% / 12 * 4 - 30px);
       }
 }
+
+
+
+.item-potfolio:not(:last-child) {
+    margin-bottom: 30px;
+}
+
 .img-photo{
     display: block;
     height: auto;
