@@ -90,6 +90,7 @@ html {
 
 .task,
 .comand {
+  font-weight: 400px;
   font-size: 36px;
   line-height: 1.17;
   color: var(--main-title-color);
