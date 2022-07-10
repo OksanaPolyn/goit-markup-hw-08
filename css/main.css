@@ -768,8 +768,7 @@ img.photo_team {
 }
 
 .style {
-  font-style: normal;
-  /*убрали курсив*/
+  font-style: normal; /*убрали курсив*/
 }
 
 .footer {
@@ -868,7 +867,6 @@ img.photo_team {
     flex-direction: row;
     margin-left: auto;
   }
-
   .footer-left {
     min-width: 231px;
     margin-right: 70px;
