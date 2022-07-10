@@ -1230,6 +1230,7 @@ img.img-photo {
 .modal-close:focus{
     border: #2196F3;
 }*/
+/* <!-- <button class="btn-close">&#10006;</button>-->*/
 .modal-title {
   margin-bottom: 12px;
   color: var(--main-title-color);
